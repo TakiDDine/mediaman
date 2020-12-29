@@ -1,0 +1,434 @@
+@media (max-width: 600px) and (min-width: 0px) {
+    ul.menu {
+        display: none;
+    }
+    .description {
+        position: initial;
+        padding: 30px;
+    }
+    img.videoPr {
+        position: initial;
+        margin-top: 20px;
+    }
+    .service-col {
+        padding: 5px 5px;
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    img.aboutlogo {
+        width: 150px;
+    }
+    .row.afla {
+        padding-top: 20px;
+    }
+    .aboutDivpara p {
+        text-align: justify;
+    }
+    section.galleryS {
+        padding: 50px 0;
+    }
+    img.image.G1 {
+        padding-top: initial;
+    }
+    .row.lowel {
+        padding-bottom: initial;
+    }
+    .row.tani {
+        padding-bottom: initial;
+    }
+    .row.whatwedoDesc p {
+        text-align: justify;
+    }
+    .col-md-6.socialBox {
+        margin-bottom: 50px;
+    }
+    .col-md-6.socialBox p {
+        text-align: justify;
+    }
+    .col-md-6.socialBox a {
+        display: table;
+    }
+    section.socialmediaAds {
+        padding: 70px 0;
+    }
+    section.whatwedo {
+        padding: 70px 0;
+    }
+    .col-md-6.socialBox.lastdes {
+        margin-bottom: initial;
+    }
+    section.whychooseus {
+        padding: 70px 0;
+    }
+    section.partners {
+        padding: 70px 0;
+    }
+    .row.partners1 {
+        padding-bottom: initial;
+    }
+    section.partners p {
+        text-align: justify;
+    }
+    .copyright {
+        float: initial;
+        text-align: center;
+    }
+    .footerlogo {
+        float: initial;
+    }
+    .socialmedia {
+        padding: 25px;
+    }
+    .citiesBox.city {
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .paraimg {
+        width: 500px;
+    }
+    header {
+        width: 100%;
+        display: inline-block;
+        background-color: #ffff;
+    }
+    .hamburger {
+        height: 20px;
+        width: 20px;
+        padding: 20px;
+        float: right;
+        cursor: pointer;
+    }
+    .navmobile {
+        background-color: #2b2b2b;
+        margin: 0;
+        max-height: 0;
+        overflow: hidden;
+        clear: both;
+        transition: max-height .3s cubic-bezier(0.63, 0, 0.25, 1);
+        ;
+    }
+    .navmobile ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: block;
+    }
+    .navmobile li {
+        display: block;
+        margin: 0;
+        text-align: center;
+    }
+    .navmobile a {
+        color: white;
+        display: block;
+        padding: .4em;
+    }
+    header input[type="checkbox"]:checked~.navmobile {
+        max-height: 250px;
+        border-bottom: #404040 5px solid;
+    }
+    header a:hover,
+    header a:focus,
+    header label:hover,
+    header label:focus {
+        background-color: white;
+        color: black;
+    }
+    .hidden {
+        position: fixed;
+        top: -100%;
+        left: -100%;
+    }
+    label.hamburger:hover {
+        background: none;
+    }
+    nav.navmobile ul li a {
+        text-decoration: none;
+    }
+    .logomobile {
+        display: inline-block;
+        float: left;
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+    .logomobile img {
+        width: 150px;
+    }
+    section.creative.creative2 {
+        text-align: center;
+    }
+    p.undercallus {
+        text-align: center;
+    }
+    .videoservices {
+        padding: 10px 30px;
+    }
+    section.contactus.contactusRed {
+        text-align: center;
+    }
+    section.whuourcompany {
+        text-align: center;
+    }
+    .chanceright {
+        margin-bottom: 40px;
+    }
+    .chanceleft {
+        text-align: center;
+    }
+    .areas-section.animatedParent {
+        display: none;
+    }
+    .videoservices:hover .play-btn:before {
+        left: 30px;
+        right: 30px;
+        top: 10px;
+        bottom: 10px;
+    }
+    .aboutDiv {
+        padding: 40px 0px;
+    }
+    section.whatwedo {
+        display: none;
+    }
+    .iconbox {
+        width: 100%;
+    }
+    .carousel-item {
+        text-align: center;
+    }
+    .row.whatwedoDesc {
+        padding: 0px 40px;
+        text-align: center;
+    }
+    section.whatwedophone {
+        background: #FF0044;
+        color: white;
+        padding: 40px 0;
+    }
+    section.socialmediaAds {
+        text-align: center;
+    }
+    img.talimagt {
+        display: none;
+    }
+    section.contactus {
+        text-align: center;
+    }
+    section.partners {
+        display: none;
+    }
+    section.partnersphone {
+        padding: 40px 0;
+        text-align: center;
+    }
+    .row.partitle {
+        padding-bottom: 20px;
+    }
+    .row.whatwedoDesc {
+        padding-top: 20px;
+    }
+    .col-md-6.socialBox p {
+        padding: 0 20px;
+    }
+    .row.whatwedoDesc {
+        padding: 0 20px;
+    }
+    .row.whatwedoDesc p {
+        padding: 40px 0;
+    }
+    .googleseoTxt {
+        text-align: center;
+    }
+    .paraimg img {
+        width: 100%;
+        padding: 20px;
+    }
+    section.gallerySphone {
+        background: #272528;
+        padding: 40px 0;
+    }
+    section.teamS {
+        text-align: center;
+        padding: 40px 0;
+    }
+    .teamTxt p {
+        margin-bottom: 40px;
+    }
+    .row2 {
+        padding-top: 60px;
+    }
+    .teamdoTxt p {
+        text-align: right;
+    }
+    .whoismediaman2right img {
+        width: 80px;
+        margin-bottom: 20px;
+    }
+    .whoismediaman2left {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .downloadSright {
+        text-align: center;
+    }
+    .downloadSleft {
+        margin-top: 20;
+        text-align: center;
+    }
+    .plannbr {
+        padding: 40px;
+    }
+    section.mediamansplane {
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+    img.imageamoch {
+        width: 100%;
+        padding: 0px 80px 80px 80px;
+    }
+    section.amoch {
+        padding: 0;
+        padding-bottom: 40px;
+    }
+    .iconbox {
+        margin-bottom: 50px;
+    }
+    .partnimg img {
+        height: 100px;
+    }
+    i.redbtn.fa {
+        color: #FF0044;
+    }
+    ul.nav.nav-tabs.affix {
+        background: transparent !important;
+        left: 6px;
+    }
+    ul.nav.nav-tabs {
+        background: transparent !important;
+    }
+    .col-lg-8.m-b30.text-center {
+        margin-top: 300px;
+    }
+    .downloadSleft {
+        display: none;
+    }
+    section.galleryS {
+        display: none;
+    }
+    .partnsimg img {
+        width: 100%;
+    }
+    section.aboutS {
+        background-position-x: -1070px;
+    }
+    section.galleryS.Video.Video2 {
+        display: block;
+    }
+    .wedoicon {
+        margin-bottom: 50px;
+    }
+    .imgdesign {
+        vertical-align: middle;
+        align-self: center;
+    }
+    .imgdesign img {
+        width: 100%;
+        height: 300px;
+    }
+    .galleryTxt {
+        margin-bottom: 20px;
+    }
+    .galleryTxt p {
+        padding: 30px 0;
+    }
+    a.callus.whatsappbtn {
+        display: inherit;
+    }
+    .bh1 h3 {
+        font-size: 20px;
+    }
+    .bh2 h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .laststep h3 {
+        font-size: 23px;
+        font-weight: 600;
+    }
+    .afla {
+        padding: 30px 0 0 0 !important;
+    }
+    .teamdoTxt.txtalijs,
+    .teamdoTxt.txtalijs p {
+        text-align: justify;
+    }
+    .teamdoTxt.txtalijs h3 {
+        text-align: right !important;
+    }
+    .ghiklibda {
+        padding: 20px 30px;
+    }
+    .ghiklibda P {
+        text-align-last: center;
+    }
+    .clearfix {
+        text-align: center;
+    }
+    .services .des {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .services.services3 {
+        padding: 40px 0;
+    }
+    .infoform {
+        padding: 40px 20px;
+    }
+    h3.finghadi {
+        display: none;
+    }
+    .sterwagef {
+        display: none;
+    }
+    .ligneh {
+        margin: 20px 0;
+    }
+    .infoform.jumbotron h3 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .videoservices img {
+        width: 100%;
+    }
+    .googleseoImg {
+        display: none;
+    }
+    .hboynas {
+        display: none;
+    }
+    .additionalservicestextlowlaheader input {
+        top: 10px;
+    }
+    .qty_selected {
+        margin-right: -60px;
+    }
+    .elOrderProductOptinPrice {
+        padding-left: 0;
+    }
+    .additionalservicestextlowla .form-check {
+        padding: 5px;
+    }
+    .additionalservices {
+        margin: -20px;
+    }
+    label.packname {
+        float: right;
+        padding-right: 0;
+    }
+    .services .block .inner {
+    top: 0 !important;
+}
+}

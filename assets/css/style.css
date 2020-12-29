@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    
+}
+body{
+    overflow-x: hidden;
+/*
+    background: url('../comming_soong/rocket.png');
+    background-position:bottom right;
+    background-repeat: no-repeat;
+*/
+}
+
+.subscribe_form input:first-child {
+    border: 2px solid #FFBE2E;
+    height: 55px;
+    border-radius: 70px !important;
+}
+button.btn.btn-default {
+    background: #FFBE2E;height: 55px;border: 0;border-radius: 50px !important;padding: 0 50px;font-size: 24px;position: relative;left: 55px;
+
+  
+}
+
+.subscribe_form.col-md-6.col-offset-md-3 {
+    margin: 50px 0;
+}
+.or_contact.text-center ul li a {
+    background: white;
+    box-shadow: 1px 2px #00000047;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 65px !important;
+    margin-left: 8px;
+     -webkit-box-shadow: -1px 0px 20px 0px rgba(214,192,214,1);
+    -moz-box-shadow: -1px 0px 20px 0px rgba(214,192,214,1);
+    box-shadow: -1px 0px 20px 0px rgba(214,192,214,1);
+}
+
+.or_contact.text-center ul li {
+    display: inline-block;
+}
+
+.or_contact.text-center p {display: table-cell;padding-left: 30px !important;}
+
+.or_contact.text-center {
+    display: table;
+    margin: 0 auto;
+    float: none;
+    text-align: center;
+}
+img.rocket_img {
+    position: absolute;
+    bottom:0px;
+    right: 40px;
+}
+
+span.eskelah {
+    background: #ffbe2e;
+    padding: 2px 16px;
+}
+.or_contact.text-center {}
+
+span.input-group-btn {
+    z-index: 1515151;
+}
+body {
+font-family: 'SWISSRA-BOLD'; 
+    font-weight: 400;
+}
+button.btn.btn-default {
+    font-size: 16px;
+    padding: 10px 34px;
+}
+
+@font-face {
+    font-family: 'SWISSRA-BLACK'; 
+    src: url("../comming_soong/Swissra_Black.otf") format("opentype");
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SWISSRA-BOLD'; 
+    src: url("../comming_soong/Swissra_Bold.otf") format("opentype");
+    font-style: normal;
+}
+
+.heading {
+    display: inline-block;
+    background: url('../comming_soong/title_shape.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+@media all and (min-width:0px) and (max-width: 600px) {
+h1.text-center {}
+
+.heading h1 {
+    font-size: 21px;
+}
+
+.heading h2 {
+    font-size: 20px;
+}
+
+img.rocket_img {
+    display: none;
+}
+
+.or_contact p {
+    display: block !important;
+    margin-bottom: 30px;
+}
+
+body {
+    padding-bottom: 35px;
+}
+
+input.form-control {}
+
+form#form {
+    padding-right: 50px;
+}
+}

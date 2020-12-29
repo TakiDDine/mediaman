@@ -1,0 +1,55 @@
+
+<IfModule mod_headers.c>
+Header append Cache-Control "public"
+</IfModule>
+
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access plus 1 year"
+ExpiresByType image/jpeg "access plus 1 year"
+ExpiresByType image/gif "access plus 1 year"
+ExpiresByType image/png "access plus 1 year"
+ExpiresByType text/css "access plus 1 month"
+ExpiresByType application/pdf "access plus 1 month"
+ExpiresByType text/x-javascript "access plus 1 month"
+ExpiresByType application/x-shockwave-flash "access plus 1 month"
+ExpiresByType application/x-javascript "access plus 1 month"
+ExpiresByType text/javascript "access plus 1 month"
+ExpiresByType application/javascript "access plus 1 month"
+ExpiresByType application/json "access plus 1 month"
+ExpiresByType image/x-icon "access plus 1 year"
+ExpiresByType image/svg+xml "access plus 1 year"
+ExpiresDefault "access plus 2 days"
+</IfModule>
+
+# 1 Month for most static assets
+<filesMatch ".(css|jpg|jpeg|png|gif|js|ico)$">
+Header set Cache-Control "max-age=2592000, public"
+</filesMatch>
+
+
+
+## EXPIRES CACHING ##
+
+# Enable rewriting.
+RewriteEngine on
+
+# Optional: do not allow perusal of directories.
+Options -Indexes
+
+# Optional: explicitly enable per-directory rewrites in the .htaccess context.
+Options +FollowSymLinks
+
+# Required when not in the webroot. Always use a trailing slash.
+RewriteBase /
+
+# To be able to access existing directories and files (standalone scripts).
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Redirect everything else to index.php.
+# Add QSA to ensure that querystring variables are registered as such.
+RewriteRule . index.php [L,QSA]
+
+
